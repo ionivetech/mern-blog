@@ -1,0 +1,20 @@
+@import '../../../assets/scss/partials/variables';
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: $font-primary
+}
+.btn-block {
+    width: 100%;
+}
+.btn-primary {
+    background-color: $color-primary;
+    color: $color-white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: $shadow-btn-primary;
+}

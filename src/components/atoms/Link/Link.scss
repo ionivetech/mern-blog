@@ -1,0 +1,13 @@
+@import '../../../assets/scss/partials/variables';
+
+p {
+    margin: 0;
+}
+.link-goto {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: $color-primary;
+    text-decoration: underline;
+    cursor: pointer;
+}
