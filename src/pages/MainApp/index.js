@@ -11,7 +11,9 @@ const MainApp = () => {
             </div>
             
             <div className="content-wrapper">
-                <Outlet />
+                <div className="container">
+                    <Outlet />
+                </div>
             </div>
 
             <Footer />

@@ -1,0 +1,16 @@
+@import '../../assets/scss/partials/variables';
+@import '../../assets/scss/partials/mixin';
+
+.create-blog {
+    h2 {
+        color: $color-black;
+    }
+    .card {
+        @include card;
+
+        .wrap-button {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}

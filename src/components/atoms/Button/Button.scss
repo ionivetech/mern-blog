@@ -6,7 +6,7 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    font-family: $font-primary
+    font-family: $font-primary;
 }
 .btn-block {
     width: 100%;
@@ -17,4 +17,11 @@
     border: none;
     border-radius: 6px;
     box-shadow: $shadow-btn-primary;
+}
+.btn-secondary {
+    background-color: $color-white;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    border-radius: 6px;
+    box-shadow: $shadow-card;
 }

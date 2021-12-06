@@ -1,8 +1,24 @@
 // Container
 @mixin container {
-    width: 100%;
     max-width: 1140px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+// Ellipsis
+@mixin ellipsis($elipsis) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $elipsis;
+    -webkit-box-orient: vertical;
+}
+
+// Card
+@mixin card() {
+    background-color: $color-white;
+    border-radius: 20px;
+    box-shadow: $shadow-card;
+    padding: 20px;
 }

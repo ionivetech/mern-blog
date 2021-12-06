@@ -7,6 +7,12 @@
 
     .content-wrapper {
         flex: 1;
-        @include container;
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        
+        .container {
+            @include container;
+        }
     }
 }

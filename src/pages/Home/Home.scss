@@ -1,0 +1,20 @@
+.btn-create-blog-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.blog-lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 649px) and (min-width: 450px) {
+    .blog-lists {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
